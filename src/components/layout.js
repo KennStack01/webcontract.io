@@ -7,45 +7,29 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
-import "./layout.css"
+// import "./layout.css"
+
+const styles = {
+    layoutContent: 'text-center flex flex-col h-screen',
+    children: 'flex-grow',
+}
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
-  return (
-    <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
-    </>
-  )
+    return (
+        <div className={styles.layoutContent}>
+            <Header/>
+                <main className={styles.children}>
+                    { children }
+                </main>
+            <footer className="text-xs bg-turbo-500 w-full">
+              © {new Date().getFullYear()}, Built with  
+              {` `}
+             💖 by <a href="https://www.twitter.com/KennKibadi" target="_blank" rel="noreferrer" className="font-bold border-blue-20 border-b-2 hover:border-turbo-900">Kenn Kibadi</a>
+             - webcontract
+            </footer>
+        </div>
+    )
 }
 
 Layout.propTypes = {
