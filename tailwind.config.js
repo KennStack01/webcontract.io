@@ -3,8 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-       'sans': ['Gontserrat', 'poppins light'],
-       'serif': ['Gontserrat', 'poppins medium'],
+       'sans': ['Gontserrat', 'poppins light', 'montserrat regular'],
+       'serif': ['Gontserrat', 'poppins medium', 'montserrat medium'],
     },
     // fontFamily: {
     //    'sans': ['poppins medium', 'montserrat regular', 'ui-sans-serif', 'system-ui'],

@@ -8,6 +8,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import Header from "./header"
+import Navbar from "./Navbar"
 // import "./layout.css"
 
 const styles = {
@@ -19,14 +20,15 @@ const Layout = ({ children }) => {
     return (
         <div className={styles.layoutContent}>
             <Header/>
+            <Navbar/>
                 <main className={styles.children}>
                     { children }
                 </main>
             <footer className="text-xs bg-turbo-500 w-full">
               © {new Date().getFullYear()}, Built with  
               {` `}
-             💖 by <a href="https://www.twitter.com/KennKibadi" target="_blank" rel="noreferrer" className="font-bold border-blue-20 border-b-2 hover:border-turbo-900">Kenn Kibadi</a>
-             - webcontract
+             💖 by <a href="https://www.twitter.com/KennKibadi" target="_blank" rel="noreferrer" className="font-bold border-blue-20 border-b-2 hover:border-turbo-900">Kenn Kibadi </a>
+             - <span className="font-semibold">webcontract</span> 
             </footer>
         </div>
     )

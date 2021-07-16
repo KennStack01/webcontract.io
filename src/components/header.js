@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => (
   <header>
-    <div className="bg-turbo-500 w-full">
+    <div className="bg-turbo-500 w-full py-1">
       <h1>
         <Link
           to="/"
@@ -13,14 +13,14 @@ const Header = () => (
           {/* Logo */}
           <StaticImage
             src="../images/webcontract-logo.png"
-            width={200}
+            width={150}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="WebContract Logo"
           />
         </Link>
       </h1>
-      <p>24/7 Available for Video Call 😉</p>
+      <p className="text-xs">24/7 Available for <Link to="/contact" className="border-blue-20 border-b-2 hover:border-turbo-900">Video Call </Link> 😉</p>
     </div>
   </header>
 )
