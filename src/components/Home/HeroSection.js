@@ -26,10 +26,12 @@ const HeroSection = () => {
                     </h1>
                     <p className="font-semibold text-2xl mx-5 mb-10 mt-6 md:mt-10">
                         For your Startup, Business, <br /> 
-                        SaaS Product, Retail, Brand
+                        SaaS Product, Brand!
                     </p>
                 </div>
-                <Link to="/contact" className="bg-gun-powder-600 text-white font-bold py-4 md:py-2 px-6 text-2xl my-10 hover:text-turbo-400">Contact us</Link>
+                <div className="transform transition duration-500 hover:scale-110">
+                    <Link to="/contact" className="bg-gun-powder-600 text-white font-bold py-4 md:py-2 px-6 text-2xl my-10 hover:text-turbo-400">Contact us</Link>
+                </div>
             </div>
             <div>
                 <HomePicture width="auto" height="auto" styles={ { width: 'auto', height: 'auto' } } className="md:h-96 md:w-auto md:-m-10"/>

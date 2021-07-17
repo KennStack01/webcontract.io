@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import WhatWeDo from './WhatWeDo'
 import WhatWeDoPicture1 from '../../assets/what-we-do-1.svg'
 import WhatWeDoPicture2 from '../../assets/what-we-do-2.svg'
@@ -25,6 +26,9 @@ const Main = () => {
                     bigText={"We bring ongoing support to"} 
                     specialWord={"your Business"} 
                 />
+            </div>
+            <div className="my-10 mb-20">
+                <Link to="/services" className="bg-gun-powder-600 text-white font-bold py-4 md:py-2 px-6 text-xl hover:text-turbo-400">Discover now!</Link>
             </div>
         </div>
     )
