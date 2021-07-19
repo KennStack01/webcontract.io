@@ -9,7 +9,6 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import Header from "./header"
 import Navbar from "./Navbar"
-// import "./layout.css"
 
 const styles = {
     layoutContent: 'text-center flex flex-col h-screen',

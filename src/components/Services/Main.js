@@ -16,52 +16,45 @@ const Main = () => {
             <div className="mt-5 md:grid grid-cols-2">
                 <Service 
                     title={"🎨 Fully Responsive Beautiful Design"} 
-                    details={`Blogging, Literature, and Bookstore App. This Project is a Built 
-                        Platform where readers can read articles, poems and buy books. 
-                        The main task was to redesign the entire website, bring 
-                        Responsive features, and add modern functionalities like 
-                        Reading-only, sharing options, online shopping, and so on. 
-                        It's a CI/CD-based project and is still being improved.`
+                    details={`Responsive Web Design is about creating web pages that look good on all devices!
+                            Making your customers/users comfortable and happy while also browsing your site and
+                            discovering what your Company is about.
+                            Your Website will look great on Mobile, Tablets, Desktops, and even in VR 😍
+                    `
                     } 
                 />
                 <Service 
                     title={"🎊 Website Design Improvement"} 
-                    details={`Blogging, Literature, and Bookstore App. This Project is a Built 
-                        Platform where readers can read articles, poems and buy books. 
-                        The main task was to redesign the entire website, bring 
-                        Responsive features, and add modern functionalities like 
-                        Reading-only, sharing options, online shopping, and so on. 
-                        It's a CI/CD-based project and is still being improved.`
+                    details={`Do you already have a Website and you don't like the way it looks?
+                            Please, don't care. We can help you improve your Website Design.
+                            Using modern design techniques, we can transform it to a beautiful design.
+                            This is a great way to make your Website more user friendly and more user friendly. 
+
+                    `
                     } 
                 />
                 <Service 
                     title={"👔 Ongoing Assistance and Support"} 
-                    details={`Blogging, Literature, and Bookstore App. This Project is a Built 
-                        Platform where readers can read articles, poems and buy books. 
-                        The main task was to redesign the entire website, bring 
-                        Responsive features, and add modern functionalities like 
-                        Reading-only, sharing options, online shopping, and so on. 
-                        It's a CI/CD-based project and is still being improved.`
+                    details={`After building your Product, We'll stay close and be bringing support.
+                            Because It's all about caring for your users. When something isn't good enough,
+                            WebContract will be there to help you. Are you ready to partner?🙂
+                    `
                     } 
                 />
                 <Service 
                     title={"🌍 Search Engine Optimization"} 
-                    details={`Blogging, Literature, and Bookstore App. This Project is a Built 
-                        Platform where readers can read articles, poems and buy books. 
-                        The main task was to redesign the entire website, bring 
-                        Responsive features, and add modern functionalities like 
-                        Reading-only, sharing options, online shopping, and so on. 
-                        It's a CI/CD-based project and is still being improved.`
+                    details={`Webcontract use SEO Techniques in order to make your Website be ranked among the tops.
+                            This is a great way to make your Website more visible and more popular.
+                            We can help you with this.
+                    `
                     } 
                 />
                 <Service 
                     title={"📈 Business Growth Strategy"} 
-                    details={`Blogging, Literature, and Bookstore App. This Project is a Built 
-                        Platform where readers can read articles, poems and buy books. 
-                        The main task was to redesign the entire website, bring 
-                        Responsive features, and add modern functionalities like 
-                        Reading-only, sharing options, online shopping, and so on. 
-                        It's a CI/CD-based project and is still being improved.`
+                    details={`We don't only have the Coding side of things. Let's work also on the Business side of your Product.
+                            What decisions to make in order to attract more customers, how the users behave and how we can improve the sales.
+                            Staying close to the Business stratgy while coding and building the app will help you to build a successful Product.
+                    `
                     } 
                 />
             </div>
