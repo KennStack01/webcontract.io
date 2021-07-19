@@ -15,6 +15,7 @@ const Header = () => (
             src="../images/webcontract-logo.png"
             width={150}
             quality={95}
+            placeholder="blurred"
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="WebContract Logo"
           />
