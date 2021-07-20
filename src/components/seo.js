@@ -11,6 +11,7 @@ import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 import picture from './src/images/webcontract-seo.jpg'
 
+
 function Seo({ description, lang, meta, image: metaImage, title, pathname  }) {
   const { site } = useStaticQuery(
     graphql`
@@ -36,7 +37,7 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname  }) {
       : null
 
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
-  const cardUrl = (picture ? `/card/${picture}` : null) || `${site.siteMetadata.siteUrl}${location.pathname}card.jpg`
+  const cardUrl = picture ? `/card/${picture}` : null
 
   return (
     <Helmet
