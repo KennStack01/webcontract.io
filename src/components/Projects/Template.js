@@ -18,15 +18,15 @@ const Template = ({ data }) => {
 
             <div className="md:grid grid-cols-3 justify-center mx-auto md:ml-20">
                 <div className="flex flex-col my-8 mx-2 p-2 md:p-4 md:w-80 h-auto shadow rounded-sm">
-                    <h1 className="font-semibold">Business Description</h1>
+                    <h1 className="font-semibold bg-blue-600 text-white">Business Description</h1>
                     <p className="text-justify font-normal  my-5"> { data.datoCmsProject.projectDescription } </p>
                 </div>
                 <div className="flex flex-col my-8 mx-2 p-2 md:p-4 md:w-80 shadow rounded-sm">
-                    <h1 className="font-semibold">Business Problem</h1>
+                    <h1 className="font-semibold bg-red-700 text-white">Business Problem</h1>
                     <p className="text-justify font-normal  my-5"> { data.datoCmsProject.businessProblem } </p>
                 </div>
                 <div className="flex flex-col my-8 mx-2 p-2 md:p-4 md:w-80 shadow rounded-sm">
-                    <h1 className="font-semibold">Provided Solution</h1>
+                    <h1 className="font-semibold bg-turbo">Provided Solution</h1>
                     <p className="text-justify font-normal my-5"> { data.datoCmsProject.providedSolution } </p>
                 </div>
             </div>

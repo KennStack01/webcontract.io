@@ -6,7 +6,7 @@ const BuiltProject = ({ImageSource, title, description, demoLink, slug}) => {
     return (
         <div className="flex flex-col md:flex-row mx-3 md:mx-40 rounded-sm shadow hover:shadow-lg my-8 py-1">
             <div className="h-auto w-90 ml-3">
-                <Link to={`/${slug}`}>
+                <Link to={`/projects/${slug}`}>
                     <img src={ImageSource} loading="lazy"/>
                 </Link>
             </div>
