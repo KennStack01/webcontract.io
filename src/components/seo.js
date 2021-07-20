@@ -37,7 +37,7 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname, locat
 
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
   // const cardUrl = picture ? `/card/${picture}` : null 
-  const cardUrl = `${site.siteMetadata.siteUrl}${location.pathname}card.jpg`
+  const cardUrl = `./src/images/card.jpg`
 
   return (
     <Helmet
