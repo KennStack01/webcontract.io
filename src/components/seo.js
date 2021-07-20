@@ -19,7 +19,7 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname  }) {
             title
             description
             author
-            keywords
+            ## keywords
             siteUrl
           }
         }
