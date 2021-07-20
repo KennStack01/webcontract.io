@@ -9,6 +9,7 @@ module.exports = {
     description: `We help you to grow your Business with Modern, Beautiful and Fast Websites`,
     author: `@KennKibadi`,
     siteUrl: `https://www.webcontract.io/`,
+    image: `./src/images/webcontract-seo.jpg`,  
   },
   plugins: [
     'gatsby-plugin-postcss',
