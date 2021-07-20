@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from "../layout"
-import Seo from '../Seo'
+import Seo from '../seo'
 import { Link, graphql } from "gatsby"
 
 
