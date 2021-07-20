@@ -6,7 +6,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Webontract Business`,
-    description: `We help you to grow your Business with Modern, Beautiful and Fast Websites`,
+    description: `We help you grow your Business with Modern, Beautiful and Fast Websites`,
     author: `@KennKibadi`,
     siteUrl: `https://www.webcontract.io/`,
     image: `./src/images/webcontract-seo.jpg`,  
