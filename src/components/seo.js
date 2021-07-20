@@ -9,6 +9,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import Picture from '../images/card.js'
 
 
 function Seo({ description, lang, meta, image: metaImage, title, pathname, location  }) {
@@ -37,7 +38,7 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname, locat
 
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
   // const cardUrl = picture ? `/card/${picture}` : null 
-  const cardUrl = `./src/images/card.jpg`
+  const cardUrl = `${Picture}`
 
   return (
     <Helmet
