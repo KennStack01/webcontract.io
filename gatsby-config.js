@@ -44,12 +44,17 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `webcontract.io`,
+      },
+    },
+    {
     resolve: `gatsby-source-datocms`,
     options: {
       // You can find your read-only API token under the Settings > API tokens
       // section of your administrative area. Make sure to grant both CDA and CMA permissions.
       apiToken: process.env.DATOCMS_API_KEY,
-     
 
       // The project environment to read from. Defaults to the primary environment:
       environment: `main`,

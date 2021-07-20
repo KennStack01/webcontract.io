@@ -7,10 +7,10 @@ const Main = () => {
 
     const data = useStaticQuery(graphql`
         query {
-            allDatoCmsProject {
+            allDatoCmsProject(sort: {order: DESC, fields: dateOfLaunch}) {
                 edges {
                     node {
-                        desktopPicture {
+                        generalPreviewPicture {
                             fluid {
                                 src
                             }
@@ -34,14 +34,14 @@ const Main = () => {
                     ⛳ What We have built  <br /> 
                 </h1>
                 <p className="font-medium text-lg md:text-2xl mt-6 md:mt-10">
-                    We design, we build, we ship🎊
+                    We Design, Build and Ship🎊
                 </p>
             </div>
 
             {allProjects.map((project) => (
                 <div>
                     <BuiltProject 
-                        ImageSource={ project.desktopPicture.fluid.src } 
+                        ImageSource={ project.generalPreviewPicture.fluid.src } 
                         title={ project.projectName } 
                         description={ project.projectDescription } 
                         demoLink={ project.demoProjetLink } 
@@ -49,7 +49,7 @@ const Main = () => {
                     />
                 </div>
             ))}
-            <h1 className="my-15 md:px-4 px-2 py-3 bg-turbo-500 md:mx-40 mx-14 text-md md:text-2xl font-semibold">Interested? Contact <span className="border-transparent border-b-2 border-turbo-900"> <Link to="/contact">webcontract</Link></span>.  We’re available 24h/7😎</h1>
+            <h1 className="my-15 md:px-4 px-2 py-3 bg-turbo-500 mx-8 md:mx-40 text-md md:text-2xl font-semibold">Interested? Contact <span className="border-transparent border-b-2 border-turbo-900"> <Link to="/contact">webcontract</Link></span>.  We’re available 24h/7😎</h1>
 
             <div className="mt-5 mb-20">
                 <Link to="/contact" className="bg-gun-powder-600 text-white font-bold py-4 md:py-2 px-6 text-2xl my-10 hover:text-turbo-400">Let's Talk 😃</Link>
