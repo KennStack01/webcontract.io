@@ -15,7 +15,7 @@ const BuiltProject = ({ImageSource, title, description, demoLink, slug}) => {
                 <p className="text-sm font-normal md:font-medium my-4 text-justify"> { description } </p>
                 <div className="flex flex-row justify-center my-6">
                     <a href={demoLink} target="_blank" rel="noreferrer" className="font-semibold p-2 bg-turbo-900 hover:text-turbo text-white mx-2"> Visit Website </a>
-                    <Link to={`/${slug}`} className="font-semibold hover:underline bg-white shadow-sm p-2 mx-2"> Read More </Link>
+                    <Link to={`/projects/${slug}`} className="font-semibold hover:underline bg-white shadow-sm p-2 mx-2"> Read More </Link>
                 </div>
             </div>
         </div>
