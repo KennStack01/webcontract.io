@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 const projects = () => {
     return (
         <Layout>
-            <Seo title="Projects " />
+            <Seo title="Projects" description="Built by WebContract" />
             <Main/>
         </Layout>
     )

@@ -7,7 +7,7 @@ import Main from '../components/Services/Main'
 const services = () => {
     return (
         <Layout>
-            <Seo title="Services" />
+            <Seo title="Services" description="Discover our Services"/>
             <Main/>
         </Layout>
     )

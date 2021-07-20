@@ -8,7 +8,7 @@ import Main from "../components/Home/Main"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Welcome to WebContract" />
     <HeroSection />
     <Main/>
   </Layout>
