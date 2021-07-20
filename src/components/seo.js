@@ -9,7 +9,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import Picture from '../images/card.js'
+import Picture from '../images/card.jpg'
 
 
 function Seo({ description, lang, meta, image: metaImage, title, pathname, location  }) {
@@ -76,7 +76,7 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname, locat
         },
         {
           property: `og:image`,
-          content: cardUrl,
+          content: `${Picture}`,
         },
         {
           name: `twitter:card`,
