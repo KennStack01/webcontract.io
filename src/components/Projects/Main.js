@@ -8,7 +8,9 @@ import {
     SiReact, 
     SiGatsby, 
     SiNextDotJs,
-    SiTailwindcss
+    SiTailwindcss,
+    SiFigma,
+    SiVisualstudiocode
 
 } from 'react-icons/si'
 
@@ -42,32 +44,40 @@ const Main = () => {
         <div className="mt-5 relative">
             <div className="my-6">
                 <h1 className="font-semibold text-2xl md:text-3xl md:mt-10">
-                    🧰 What's inside our Toolbox  <br /> 
+                    🎮 What's inside our Toolbox  <br /> 
                 </h1>
                 <div className="grid grid-cols-2 md:grid-cols-3 place-items-center font-medium text-5xl md:text-7xl text-turbo-900 mt-6 md:mt-10 bg-gray-300 w-full h-auto">
                     <div className="m-3 flex flex-row">
                         <SiShopify />
-                        <h1 className="text-lg md:text-xl my-auto font-medium">Headless Shopify </h1>
+                        <h1 className="text-sm md:text-xl my-auto font-medium">Headless Shopify </h1>
                     </div>
                     <div className="m-3 flex flex-row">
-                        <SiNetlify />
-                        <h1 className="text-lg md:text-xl my-auto font-medium"> Netlify </h1>
+                        <SiNetlify className="mr-4" />
+                        <h1 className="text-sm md:text-xl my-auto font-medium"> Netlify </h1>
                     </div>
                     <div className="m-3 flex flex-row">
-                        <SiReact />
-                        <h1 className="text-lg md:text-xl my-auto font-medium"> React JS </h1>
+                        <SiReact className="mr-4"/>
+                        <h1 className="text-sm md:text-xl my-auto font-medium"> React JS </h1>
                     </div>
                     <div className="m-3 flex flex-row">
-                        <SiGatsby />
-                        <h1 className="text-lg md:text-xl my-auto font-medium"> Gatsby JS </h1>
+                        <SiGatsby className="mr-4"/>
+                        <h1 className="text-sm md:text-xl my-auto font-medium"> Gatsby JS </h1>
                     </div>
                     <div className="m-3 flex flex-row">
-                        <SiNextDotJs />
-                        <h1 className="text-lg md:text-xl my-auto font-medium"> Next JS </h1>
+                        <SiNextDotJs className="mr-4"/>
+                        <h1 className="text-sm md:text-xl my-auto font-medium"> Next JS </h1>
                     </div>
                     <div className="m-3 flex flex-row">
-                        <SiTailwindcss />
-                        <h1 className="text-lg md:text-xl my-auto font-medium"> Tailwind CSS </h1>
+                        <SiTailwindcss className="mr-4"/>
+                        <h1 className="text-sm md:text-xl my-auto font-medium"> Tailwind CSS </h1>
+                    </div>
+                    <div className="m-3 flex flex-row">
+                        <SiFigma className="mr-4"/>
+                        <h1 className="text-sm md:text-xl my-auto font-medium"> Figma </h1>
+                    </div>
+                    <div className="m-3 flex flex-row">
+                        <SiVisualstudiocode className="mr-4"/>
+                        <h1 className="text-sm md:text-xl my-auto font-medium"> VS Code </h1>
                     </div>
                 </div>
             </div>
