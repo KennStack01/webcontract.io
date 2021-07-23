@@ -5,19 +5,26 @@
 
 html,
 body {
-  font-family: Gontserrat;
-  font-weight: 100;
+  /* font-family: "Gontserrat" !important; */
+  /* font-weight: 100; */
   overflow-x: hidden;
 }
 
+body {
+  font-family: Montserrat Alternates SemiBold, "Poppins" serif;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+}
+
 /* Add Fonts */
-@font-face {
+/* @font-face {
   font-family: "Gontserrat";
   src: url("https://fonts.gstatic.com/s/gontserrat/v6/lNgq_r_X3iZ6l9Q1w0xDc-Xkc.woff2")
     format("woff2");
   font-style: normal;
   font-weight: 100;
-}
+} */
 
 /* body {
   font-family: Montserrat Alternates SemiBold, "Poppins" serif;

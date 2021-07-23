@@ -17,7 +17,7 @@ const styles = {
 
 const Layout = ({ children }) => {
     return (
-        <div className={styles.layoutContent}>
+        <div className={styles.layoutContent} style={ { fontFamily: "Gontserrat" } }>
             <Header/>
             <Navbar/>
                 <main className={styles.children}>

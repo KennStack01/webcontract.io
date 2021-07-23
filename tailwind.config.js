@@ -2,9 +2,13 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    // fontFamily: {
+    //    'sans': ['Gontserrat', 'poppins light', 'montserrat regular'],
+    //    'serif': ['Gontserrat', 'poppins medium', 'montserrat medium'],
+    // },
     fontFamily: {
-       'sans': ['Gontserrat', 'poppins light', 'montserrat regular'],
-       'serif': ['Gontserrat', 'poppins medium', 'montserrat medium'],
+       'sans': ['montserrat Alternates regular', 'poppins light', 'ui-sans-serif', 'system-ui'],
+       'serif': ['montserrat Alternates medium', 'poppins medium', 'ui-serif', 'Georgia'],
     },
     // fontFamily: {
     //    'sans': ['poppins medium', 'montserrat regular', 'ui-sans-serif', 'system-ui'],
