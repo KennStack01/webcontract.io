@@ -2,6 +2,17 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { useStaticQuery, graphql } from 'gatsby'
 import BuiltProject from './BuiltProject'
+import { 
+    SiShopify, 
+    SiNetlify, 
+    SiReact, 
+    SiGatsby, 
+    SiNextDotJs,
+    SiTailwindcss
+
+} from 'react-icons/si'
+
+import { IoLogoVercel } from 'react-icons/io' 
 
 const Main = () => {
 
@@ -29,7 +40,40 @@ const Main = () => {
 
     return (
         <div className="mt-5 relative">
-            <div>
+            <div className="my-6">
+                <h1 className="font-semibold text-2xl md:text-3xl md:mt-10">
+                    🧰 What's inside our Toolbox  <br /> 
+                </h1>
+                <div className="grid grid-cols-2 md:grid-cols-3 place-items-center font-medium text-5xl md:text-7xl text-turbo-900 mt-6 md:mt-10 bg-gray-300 w-full h-auto">
+                    <div className="m-3 flex flex-row">
+                        <SiShopify />
+                        <h1 className="text-lg md:text-xl my-auto font-medium">Headless Shopify </h1>
+                    </div>
+                    <div className="m-3 flex flex-row">
+                        <SiNetlify />
+                        <h1 className="text-lg md:text-xl my-auto font-medium"> Netlify </h1>
+                    </div>
+                    <div className="m-3 flex flex-row">
+                        <SiReact />
+                        <h1 className="text-lg md:text-xl my-auto font-medium"> React JS </h1>
+                    </div>
+                    <div className="m-3 flex flex-row">
+                        <SiGatsby />
+                        <h1 className="text-lg md:text-xl my-auto font-medium"> Gatsby JS </h1>
+                    </div>
+                    <div className="m-3 flex flex-row">
+                        <SiNextDotJs />
+                        <h1 className="text-lg md:text-xl my-auto font-medium"> Next JS </h1>
+                    </div>
+                    <div className="m-3 flex flex-row">
+                        <SiTailwindcss />
+                        <h1 className="text-lg md:text-xl my-auto font-medium"> Tailwind CSS </h1>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="my-6">
                 <h1 className="font-semibold text-2xl md:text-3xl md:mt-10">
                     ⛳ What We have built  <br /> 
                 </h1>

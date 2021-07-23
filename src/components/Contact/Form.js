@@ -87,7 +87,7 @@ const Form = () => {
                                     
                         <div className="flex flex-col mt-10 md:w-full">
                             <label className="mb-2 font-bold text-lg text-grey-darkest" for="message">How can we help?</label>
-                            <textarea name="message" id="message"  className="resize-none h-36 border rounded focus:outline-none focus:ring-2 focus:ring-turbo-600 focus:ring-opacity-50" placeholder="We are here to help you with your project. Please describe your project in small detail 😍." rows="4" required></textarea>
+                            <textarea name="message" id="message"  className="resize-none p-2 h-36 border rounded focus:outline-none focus:ring-2 focus:ring-turbo-600 focus:ring-opacity-50" placeholder="We are here to help you with your project. Please describe your project in small detail 😍." rows="4" required></textarea>
                         </div>
 
                         <div className="mt-10 mx-auto">
