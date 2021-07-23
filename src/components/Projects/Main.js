@@ -79,11 +79,15 @@ const Main = () => {
                         <SiVisualstudiocode className="mr-4"/>
                         <h1 className="text-sm md:text-xl my-auto font-medium"> VS Code </h1>
                     </div>
+                    <div className="m-3 mx-auto">
+                        {/* <SiVisualstudiocode className="mr-4"/> */}
+                        <h1 className="text-xl font-semibold"> + Headless CMS for Your Data </h1>
+                    </div>
                 </div>
             </div>
 
 
-            <div className="my-6">
+            <div className="my-8">
                 <h1 className="font-semibold text-2xl md:text-3xl md:mt-10">
                     ⛳ What We have built  <br /> 
                 </h1>
