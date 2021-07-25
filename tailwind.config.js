@@ -7,8 +7,8 @@ module.exports = {
     //    'serif': ['Gontserrat', 'poppins medium', 'montserrat medium'],
     // },
     fontFamily: {
-       'sans': ['montserrat Alternates regular', 'poppins light', 'ui-sans-serif', 'system-ui'],
-       'serif': ['montserrat Alternates medium', 'poppins medium', 'ui-serif', 'Georgia'],
+       'sans': ['montserrat Alternates regular', 'poppins light', 'Gontserrat', 'system-ui'],
+       'serif': ['montserrat Alternates medium', 'poppins medium', 'Gontserrat', 'Georgia'],
     },
     // fontFamily: {
     //    'sans': ['poppins medium', 'montserrat regular', 'ui-sans-serif', 'system-ui'],
