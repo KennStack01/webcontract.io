@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "gatsby"
 
 import HomePicture from '../../assets/home-pic.svg'
-import ReactTypingEffect from 'react-typing-effect';
+import ReactTypingEffect from 'react-typing-effect'
 
 
 const HeroSection = () => {
