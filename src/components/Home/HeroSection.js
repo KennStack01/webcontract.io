@@ -14,7 +14,7 @@ const HeroSection = () => {
                     <h1 className="font-semibold"> 🎨 
                         <span className="bg-turbo-500 mx-0">  
                             <ReactTypingEffect
-                                text={["E-Commerce", "Business", "Marketing", "SaaS"]}
+                                text={["E-Commerce", "Business", "Marketing", "Product"]}
                                 speed={50}
                                 typingDelay={20}
                                 eraseSpeed={20}
@@ -26,7 +26,7 @@ const HeroSection = () => {
                     </h1>
                     <p className="font-semibold text-2xl mx-5 mb-10 mt-6 md:mt-10">
                         For your Startup, Business, <br /> 
-                        SaaS Product, Brand!
+                        SaaS Product!
                     </p>
                 </div>
                 <div className="transform transition duration-500 hover:scale-110">
