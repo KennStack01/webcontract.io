@@ -6,7 +6,6 @@ import ReactTypingEffect from 'react-typing-effect';
 
 
 const HeroSection = () => {
-
     return (
         <div className="flex flex-col md:flex-row md:justify-around my-8 md:my-20">
             <div className="">
