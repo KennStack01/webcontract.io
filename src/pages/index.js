@@ -6,12 +6,14 @@ import Seo from "../components/seo"
 import HeroSection from "../components/Home/HeroSection"
 import Main from "../components/Home/Main"
 
-
 const IndexPage = () => (
   <Layout>
-    <Seo title="Welcome to WebContract" />
+    <Seo
+      title="Welcome"
+      description="Scalable and Secure Marketing Business Websites for Your Business, Company, Startup. Freelance Web Development"
+    />
     <HeroSection />
-    <Main/>
+    <Main />
   </Layout>
 )
 

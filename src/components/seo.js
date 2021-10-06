@@ -9,10 +9,18 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import Picture from '../images/card.jpg'
+import Picture from "../images/card.jpg"
 
-
-function Seo({ description, lang, meta, image: metaImage, title, pathname, location  }) {
+function Seo({
+  description,
+  lang,
+  meta,
+  image: metaImage,
+  title,
+  pathname,
+  // keywords,
+  location,
+}) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -37,7 +45,7 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname, locat
       : null
 
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
-  // const cardUrl = picture ? `/card/${picture}` : null 
+  // const cardUrl = picture ? `/card/${picture}` : null
   const cardUrl = `${Picture}`
 
   return (
@@ -94,7 +102,8 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname, locat
           name: `twitter:description`,
           content: metaDescription,
         },
-      ].concat(
+      ]
+        .concat(
           metaImage
             ? [
                 {
@@ -121,7 +130,7 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname, locat
                 },
               ]
         )
-      
+
         .concat(meta)}
     />
   )
