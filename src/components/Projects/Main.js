@@ -119,7 +119,8 @@ const Main = () => {
       {allProjects.map(project => (
         <div>
           <BuiltProject
-            ImageSource={project.generalPreviewPicture.fluid.src}
+            imageSource={project.generalPreviewPicture.fluid.src}
+            key={project.projectName}
             title={project.projectName}
             description={project.projectDescription}
             demoLink={project.demoProjetLink}

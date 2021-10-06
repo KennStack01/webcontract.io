@@ -13,7 +13,7 @@ import Footer from "./Footer"
 
 const styles = {
   layoutContent: "text-center flex flex-col h-screen",
-  children: "flex-grow font-sans",
+  children: "flex-grow font-serif",
 }
 
 const Layout = ({ children }) => {

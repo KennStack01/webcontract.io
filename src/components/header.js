@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => (
-  <header className=" font-sans">
+  <header className="font-serif">
     <div className="bg-turbo-500 w-full py-1">
       <h1>
         <Link to="/">
