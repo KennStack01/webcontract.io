@@ -45,7 +45,7 @@ const Form = () => {
                 required
               />
             </div>
-            <div class="flex flex-col mb-4 md:w-full">
+            {/* <div class="flex flex-col mb-4 md:w-full">
               <label
                 className="mb-2 tracking-wide font-bold text-lg text-grey-darkest"
                 for="business_name"
@@ -59,7 +59,16 @@ const Form = () => {
                 id="business_name"
                 placeholder="Modern Shop Company"
               />
-            </div>
+            </div> */}
+
+            <label className="mt-1 text-sm mx-auto">
+              <select className="block bg-white border border-black-400 px-2 py-1 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-turbo-600 focus:ring-opacity-50 rounded cursor-pointer">
+                <option className="cursor-pointer">I choose Package 1</option>
+                <option className="cursor-pointer">I choose Package 2</option>
+                <option className="cursor-pointer">I choose Package 3</option>
+                <option className="cursor-pointer">Business Contract</option>
+              </select>
+            </label>
 
             <div className="flex flex-col mt-3 md:w-full">
               <label

@@ -4,6 +4,7 @@ import WhatWeDo from "./WhatWeDo"
 import WhatWeDoPicture1 from "../../assets/what-we-do-1.svg"
 import WhatWeDoPicture2 from "../../assets/what-we-do-2.svg"
 import { StaticImage } from "gatsby-plugin-image"
+import Package from "./Package"
 
 const Main = () => {
   return (
@@ -126,7 +127,7 @@ const Main = () => {
         Growing your Business Quality with Modern Tools
       </h1>
 
-      <div>
+      <div className="my-4 md:my-8">
         <WhatWeDo
           Picture={WhatWeDoPicture1}
           smallText={"We don’t only Code your beautiful website,"}
@@ -140,12 +141,71 @@ const Main = () => {
           specialWord={"your Business"}
         />
       </div>
-      <div className="my-10 mb-20">
+
+      <h1 className="my-8 md:my-10 text-2xl font-bold">
+        Check Our Available Packages 👇
+      </h1>
+      <div className="md:grid grid-cols-3 justify-center my-4 md:my-8">
+        <Package
+          title="Package 1"
+          description={[
+            "Business Landing Page",
+            "Contact Form",
+            "One Web Page",
+            "Basic Business Info",
+            "Static Content",
+            "Free and Secure Hosting",
+          ]}
+          lowestPrice="$500"
+          btnText="Get Started"
+        />
+        <Package
+          title="Package 2"
+          description={[
+            "Business Landing Page",
+            "Contact Form",
+            "One Web Page",
+            "Basic Business Info",
+            "Static Content",
+            "Free and Secure Hosting",
+          ]}
+          lowestPrice="$500"
+          btnText="Get your modern Website"
+        />
+        <Package
+          title="Package 3"
+          description={[
+            "Business Landing Page",
+            "Contact Form",
+            "One Web Page",
+            "Basic Business Info",
+            "Static Content",
+            "Free and Secure Hosting",
+          ]}
+          lowestPrice="$500"
+          btnText="Get your Long-term Support"
+        />
+      </div>
+      <div className="md:mx-96">
+        <Package
+          title="Business Contract 🤝"
+          description={[
+            "We'll working together on your Product over time and keep building and improving your Customers Experience",
+            "You'll benefit from an Ongoing Support and Solutions",
+            "This is what you really need for the Greatest Achievement",
+          ]}
+          lowestPrice="$3000 per month"
+          btnText="Get your Long-term Support"
+          className=""
+        />
+      </div>
+
+      <div className="my-20">
         <Link
           to="/services"
-          className="bg-gun-powder-600 text-white font-bold py-4 md:py-2 px-6 text-xl hover:text-turbo-400"
+          className="bg-gun-powder-600 text-white font-bold p-3 px-6 text-md hover:text-turbo-400"
         >
-          Discover now!
+          Discover our Services now!
         </Link>
       </div>
     </div>
