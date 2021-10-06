@@ -13,40 +13,39 @@ const Footer = () => {
           target="__blank"
           className="flex flex-row justify-center mx-3 text-white hover:text-turbo-500"
         >
-          <div className="text-2xl lg:text-3xl">
+          <div className="text-xl lg:text-2xl">
             <IoLogoLinkedin />
           </div>
-          <h1 className="text-xs mt-1 mx-1 font-sans lg:text-sm">LinkedIn</h1>
+          <h1 className="text-sm md:text-md my-auto mx-1 font-sans">
+            LinkedIn
+          </h1>
         </a>
         <a
           href="https://twitter.com/KennKIBADI"
           target="__blank"
           className="flex flex-row justify-center mx-3 text-white hover:text-turbo-500"
         >
-          <div className="text-2xl lg:text-3xl">
+          <div className="text-xl lg:text-2xl">
             <IoLogoTwitter />
           </div>
-          <h1 className="text-xs mt-1 mx-1 font-sans lg:text-sm">Twitter</h1>
+          <h1 className="text-sm md:text-md my-auto mx-1 font-sans">Twitter</h1>
         </a>
 
         <a
           href="https://github.com/KennStack01"
           target="__blank"
-          className="flex flex-row justify-center  mx-3 text-white hover:text-turbo-500"
+          className="flex flex-row justify-center mx-3 text-white hover:text-turbo-500"
         >
-          <div className="text-2xl lg:text-3xl">
+          <div className="text-xl lg:text-2xl">
             <IoLogoGithub />
           </div>
-          <h1 className="text-xs mt-1 mx-1 font-sans lg:text-sm">Github</h1>
+          <h1 className="text-sm md:text-md my-auto mx-1 font-sans">Github</h1>
         </a>
       </div>
 
-      <div className="md:my-auto my-5">
+      <div className="md:my-auto my-5 text-sm md:text-md">
         © {new Date().getFullYear()}, {"  "}
-        <Link
-          to="/services"
-          className="font-medium border-b-2 hover:border-turbo-600"
-        >
+        <Link to="/services" className="font-medium hover:text-turbo-500">
           {" "}
           WebContract Business Support
         </Link>

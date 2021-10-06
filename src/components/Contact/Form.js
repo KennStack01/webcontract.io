@@ -60,71 +60,8 @@ const Form = () => {
                 placeholder="Modern Shop Company"
               />
             </div>
-            <div class="flex flex-col mb-4 mx-auto md:w-full">
-              <div class="mt-4">
-                <span class="mb-2 font-bold text-lg text-grey-darkest">
-                  Project Type
-                </span>
-                <div class="mt-2 grid grid-cols-2 text-sm font-normal">
-                  <label class="inline-flex items-center ml-1">
-                    <input
-                      type="radio"
-                      className="form-radio cursor-pointer"
-                      name="accountType"
-                      value="E-Commerce"
-                    />
-                    <span className="ml-2 cursor-pointer">E-Commerce</span>
-                  </label>
-                  <label class="inline-flex items-center ml-1">
-                    <input
-                      type="radio"
-                      className="form-radio cursor-pointer"
-                      name="accountType"
-                      value="Marketing"
-                    />
-                    <span className="ml-2 cursor-pointer">Marketing</span>
-                  </label>
-                  <label class="inline-flex items-center ml-1">
-                    <input
-                      type="radio"
-                      className="form-radio cursor-pointer"
-                      name="accountType"
-                      value="Business"
-                    />
-                    <span className="ml-2 cursor-pointer">Business</span>
-                  </label>
-                  <label class="inline-flex items-center ml-1">
-                    <input
-                      type="radio"
-                      className="form-radio cursor-pointer"
-                      name="accountType"
-                      value="Product"
-                    />
-                    <span className="ml-2 cursor-pointer">Product</span>
-                  </label>
-                  <label class="inline-flex items-center ml-1">
-                    <input
-                      type="radio"
-                      className="form-radio cursor-pointer"
-                      name="accountType"
-                      value="Landing"
-                    />
-                    <span className="ml-2 cursor-pointer">Landing Page</span>
-                  </label>
-                  <label class="inline-flex items-center ml-1">
-                    <input
-                      type="radio"
-                      className="form-radio cursor-pointer"
-                      name="accountType"
-                      value="Other"
-                    />
-                    <span className="ml-2 cursor-pointer">Other Type</span>
-                  </label>
-                </div>
-              </div>
-            </div>
 
-            <div className="flex flex-col mt-6 md:w-full">
+            <div className="flex flex-col mt-3 md:w-full">
               <label
                 className="mb-2 font-bold text-lg text-grey-darkest"
                 for="message"
