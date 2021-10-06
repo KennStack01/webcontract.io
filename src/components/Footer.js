@@ -5,7 +5,7 @@ import { IoLogoTwitter, IoLogoLinkedin, IoLogoGithub } from "react-icons/io5"
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col md:flex-row justify-between bg-gun-powder-600 py-10 px-3 md:p-4 w-full text-white">
+    <footer className="flex flex-col md:flex-row justify-between bg-gun-powder-600 py-10 px-3 md:p-4 w-full text-white font-sans">
       {/* Logos Social Media */}
       <div className="flex flex-row justify-evenly md:justify-evenly mb-5 md:my-auto font-semibold">
         <a

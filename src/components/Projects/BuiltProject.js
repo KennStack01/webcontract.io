@@ -11,7 +11,7 @@ const BuiltProject = ({ imageSource, title, description, demoLink, slug }) => {
         </Link>
       </div>
       <div className="flex flex-col mx-3 md:mx-5 my-auto">
-        <h1 className="text-lg font-semibold mx-auto"> {title} </h1>
+        <h1 className="text-xl font-bold mx-auto"> {title} </h1>
         <p className="text-sm font-normal md:font-medium my-4 text-justify">
           {" "}
           {description}{" "}

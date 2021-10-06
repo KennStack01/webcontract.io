@@ -10,7 +10,7 @@ const activeLinkStyles = {
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 w-auto py-3 md:px-20 shadow-sm flex flex-row justify-around md:justify-between  font-sans text-sm md:text-md md:text-base font-bold md:mx-20 my-8 backdrop-filter backdrop-blur bg-white z-10">
+    <div className="sticky top-0 w-auto py-3 md:px-20 shadow-sm flex flex-row justify-around md:justify-between bg-white  font-sans text-sm font-bold md:text-md md:text-base md:mx-20 my-8 z-50 rounded">
       <Link
         to="/"
         activeStyle={activeLinkStyles}

@@ -7,7 +7,7 @@ const Form = () => {
         <span className="bg-turbo-500">Here we Gooooo! </span> 🚀
       </h1>
       <div className="flex items-center w-full">
-        <div class="w-full bg-gray-100 rounded shadow p-8 m-4 md:max-w-sm md:mx-auto">
+        <div class="w-full bg-gray-100 rounded shadow py-8 px-2 m-4 md:max-w-sm md:mx-auto">
           <form
             class="mb-4 md:flex md:flex-wrap md:justify-between"
             method="post"
@@ -18,7 +18,7 @@ const Form = () => {
                 className="mb-2 tracking-wide font-bold text-lg text-grey-darkest"
                 for="first_name"
               >
-                Full Name
+                Your Name
               </label>
               <input
                 className="border py-2 px-3 text-grey-darkest focus:outline-none focus:ring-2 focus:ring-turbo-600 focus:ring-opacity-50"
@@ -34,7 +34,7 @@ const Form = () => {
                 className="mb-2 font-bold text-lg text-grey-darkest"
                 for="email"
               >
-                Email
+                Email Address
               </label>
               <input
                 className="border py-2 px-3 text-grey-darkest focus:outline-none focus:ring-2 focus:ring-turbo-600 focus:ring-opacity-50"
@@ -72,7 +72,7 @@ const Form = () => {
                 name="message"
                 id="message"
                 className="resize-none p-2 h-36 border rounded focus:outline-none focus:ring-2 focus:ring-turbo-600 focus:ring-opacity-50"
-                placeholder="We are here to help you with your project. Please describe your project in small detail."
+                placeholder="We are here to help you with your project. Please describe your project in small details."
                 rows="4"
                 required
               ></textarea>

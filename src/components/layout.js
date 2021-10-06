@@ -13,7 +13,7 @@ import Footer from "./Footer"
 
 const styles = {
   layoutContent: "text-center flex flex-col h-screen",
-  children: "flex-grow font-serif",
+  children: "flex-grow font-sans",
 }
 
 const Layout = ({ children }) => {
@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
       <div>
         <Header />
       </div>
-      <div className="w-full">
+      <div className="w-full sticky top-0 z-50">
         <Navbar />
       </div>
       <main className={styles.children}>{children}</main>
