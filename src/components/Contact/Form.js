@@ -10,21 +10,21 @@ const Form = () => {
         <div class="w-full bg-gray-100 rounded shadow py-8 px-2 m-4 md:max-w-sm md:mx-auto">
           <form
             class="mb-4 md:flex md:flex-wrap md:justify-between"
-            method="post"
-            action={`https://getform.io/f/09c7f2c7-1e46-443f-baf0-bb394a33cb78`}
+            action="https://getform.io/f/77973005-19c5-4317-a7d2-e188e55a8fe6"
+            method="POST"
           >
             <div class="flex flex-col mb-4 md:w-full">
               <label
                 className="mb-2 tracking-wide font-bold text-lg text-grey-darkest"
-                for="first_name"
+                for="name"
               >
                 Your Name
               </label>
               <input
                 className="border py-2 px-3 text-grey-darkest focus:outline-none focus:ring-2 focus:ring-turbo-600 focus:ring-opacity-50"
                 type="text"
-                name="first_name"
-                id="first_name"
+                name="name"
+                id="name"
                 placeholder="Kenn Stack"
                 required
               />
@@ -61,12 +61,36 @@ const Form = () => {
               />
             </div> */}
 
-            <label className="mt-1 text-sm mx-auto">
+            <label for="package" className="my-3 text-sm mx-auto">
               <select className="block bg-white border border-black-400 px-2 py-1 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-turbo-600 focus:ring-opacity-50 rounded cursor-pointer">
-                <option className="cursor-pointer">I choose Package 1</option>
-                <option className="cursor-pointer">I choose Package 2</option>
-                <option className="cursor-pointer">I choose Package 3</option>
-                <option className="cursor-pointer">Business Contract</option>
+                <option
+                  name="Package_1"
+                  id="Package_1"
+                  className="cursor-pointer"
+                >
+                  I choose Package 1
+                </option>
+                <option
+                  name="Package_2"
+                  id="Package_2"
+                  className="cursor-pointer"
+                >
+                  I choose Package 2
+                </option>
+                <option
+                  name="Package_3"
+                  id="Package_3"
+                  className="cursor-pointer"
+                >
+                  I choose Package 3
+                </option>
+                <option
+                  name="Contract"
+                  id="Contract"
+                  className="cursor-pointer"
+                >
+                  Business Contract
+                </option>
               </select>
             </label>
 
