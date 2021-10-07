@@ -162,27 +162,28 @@ const Main = () => {
         <Package
           title="Package 2"
           description={[
-            "Business Landing Page",
-            "Contact Form",
-            "One Web Page",
-            "Basic Business Info",
-            "Static Content",
+            "Marketing Website",
+            "Three Features",
+            "Four Web Pages",
+            "Dynamic Content",
+            "Headless Content Management System",
             "Free and Secure Hosting",
           ]}
-          lowestPrice="$500"
+          lowestPrice="$1530"
           btnText="Get your modern Website"
         />
         <Package
           title="Package 3"
           description={[
-            "Business Landing Page",
-            "Contact Form",
-            "One Web Page",
-            "Basic Business Info",
-            "Static Content",
+            "Business Website",
+            "Five Features",
+            "Eight Web Pages",
+            "Dynamic Content",
+            "Headless Content Management System",
+            "Full Access and Ownership",
             "Free and Secure Hosting",
           ]}
-          lowestPrice="$500"
+          lowestPrice="$4000"
           btnText="Get your Long-term Support"
         />
       </div>
@@ -194,7 +195,7 @@ const Main = () => {
             "You'll benefit from an Ongoing Support and Solutions",
             "This is what you really need for the Greatest Achievement",
           ]}
-          lowestPrice="$3000 per month"
+          lowestPrice="$2350 per month"
           btnText="Get your Long-term Support"
           className=""
         />
