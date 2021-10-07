@@ -20,12 +20,12 @@ const Header = () => (
       </h1>
       <p className="text-xs">
         {" "}
-        Available for{" "}
+        Available for a{" "}
         <Link
           to="/contact"
           className="border-blue-20 border-b-2 hover:border-turbo-900"
         >
-          Direct Call{" "}
+          Quick Call{" "}
         </Link>{" "}
         😉
       </p>
