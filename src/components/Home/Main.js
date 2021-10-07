@@ -164,7 +164,7 @@ const Main = () => {
           description={[
             "Marketing Website",
             "Three Features",
-            "Four Web Pages",
+            "From Four Web Pages",
             "Dynamic Content",
             "Headless Content Management System",
             "Free and Secure Hosting",
@@ -177,7 +177,7 @@ const Main = () => {
           description={[
             "Business Website",
             "Five Features",
-            "Eight Web Pages",
+            "Dynamically Generated Web Pages",
             "Dynamic Content",
             "Headless Content Management System",
             "Full Access and Ownership",
