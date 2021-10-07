@@ -62,35 +62,15 @@ const Form = () => {
             </div> */}
 
             <label for="package" className="my-3 text-sm mx-auto">
-              <select className="block bg-white border border-black-400 px-2 py-1 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-turbo-600 focus:ring-opacity-50 rounded cursor-pointer">
-                <option
-                  name="Package_1"
-                  id="Package_1"
-                  className="cursor-pointer"
-                >
-                  I choose Package 1
-                </option>
-                <option
-                  name="Package_2"
-                  id="Package_2"
-                  className="cursor-pointer"
-                >
-                  I choose Package 2
-                </option>
-                <option
-                  name="Package_3"
-                  id="Package_3"
-                  className="cursor-pointer"
-                >
-                  I choose Package 3
-                </option>
-                <option
-                  name="Contract"
-                  id="Contract"
-                  className="cursor-pointer"
-                >
-                  Business Contract
-                </option>
+              <select
+                name="Package"
+                id="Package"
+                className="block bg-white border border-black-400 px-2 py-1 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-turbo-600 focus:ring-opacity-50 rounded cursor-pointer"
+              >
+                <option className="cursor-pointer">I choose Package 1</option>
+                <option className="cursor-pointer">I choose Package 2</option>
+                <option className="cursor-pointer">I choose Package 3</option>
+                <option className="cursor-pointer">Business Contract</option>
               </select>
             </label>
 
