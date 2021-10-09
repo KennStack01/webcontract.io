@@ -191,7 +191,7 @@ const Main = () => {
         <Package
           title="Business Contract 🤝"
           description={[
-            "We'll working together on your Product over time and keep building and improving your Customers Experience",
+            "We'll be working together on your Product over time and keep building and improving your Customers Experience",
             "You'll benefit from an Ongoing Support and Solutions",
             "This is what you really need for the Greatest Achievement",
           ]}
