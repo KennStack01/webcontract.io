@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const SpecialPackage = ({ title, description = [], lowestPrice, btnText }) => {
   return (
-    <div className="flex flex-col mx-5 bg-gray-50 shadow-sm md:shadow rounded p-4 my-4">
+    <div className="flex flex-col mx-5 bg-gun-powder-600 text-white shadow-sm md:shadow rounded p-4 my-4">
       <h1 className="text-lg md:text-xl font-bold font-sans my-3">{title}</h1>
       <div className="my-1 md:my-3 text-left">
         {description.map(item => (
@@ -20,7 +20,7 @@ const SpecialPackage = ({ title, description = [], lowestPrice, btnText }) => {
       >
         {btnText}
       </Link>
-      <p className="text-sm text-gray-600 text-center"> From {lowestPrice}</p>
+      <p className="text-sm text-gray-100 text-center"> From {lowestPrice}</p>
     </div>
   )
 }

@@ -150,11 +150,10 @@ const Main = () => {
         <SpecialPackage
           title="SPECIAL Business Website + Progressive Web App"
           description={[
-            "Business Website",
+            "Responsive Business Website",
             "Progressive Web App",
             "A Progressive Web App acts like a website and is powered by your browser, so it can be responsive and adapt to work on any device.",
             "Dynamic Content with a Headless CMS",
-            "Fast and Secure Browsing",
           ]}
           lowestPrice="$5000"
           btnText="Contact Now!"
