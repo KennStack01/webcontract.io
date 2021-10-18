@@ -71,6 +71,9 @@ const Form = () => {
                 <option className="cursor-pointer">I choose Package 2</option>
                 <option className="cursor-pointer">I choose Package 3</option>
                 <option className="cursor-pointer">Business Contract</option>
+                <option className="cursor-pointer">
+                  SPECIAL Business Website + PWA
+                </option>
               </select>
             </label>
 

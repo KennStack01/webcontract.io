@@ -5,6 +5,7 @@ import WhatWeDoPicture1 from "../../assets/what-we-do-1.svg"
 import WhatWeDoPicture2 from "../../assets/what-we-do-2.svg"
 import { StaticImage } from "gatsby-plugin-image"
 import Package from "./Package"
+import SpecialPackage from "./SpecialPackage"
 
 const Main = () => {
   return (
@@ -142,9 +143,23 @@ const Main = () => {
         />
       </div>
 
-      <h1 className="my-8 md:my-10 text-2xl font-bold">
+      <h1 className="my-8 md:my-10 text-2xl font-bold font-serif">
         Check Our Available Packages 👇
       </h1>
+      <div className="md:w-1/3 mx-auto">
+        <SpecialPackage
+          title="SPECIAL Business Website + Progressive Web App"
+          description={[
+            "Business Website",
+            "Progressive Web App",
+            "A Progressive Web App acts like a website and is powered by your browser, so it can be responsive and adapt to work on any device.",
+            "Dynamic Content with a Headless CMS",
+            "Fast and Secure Browsing",
+          ]}
+          lowestPrice="$5000"
+          btnText="Contact Now!"
+        />
+      </div>
       <div className="md:grid grid-cols-3 justify-center my-4 md:my-8">
         <Package
           title="Package 1"
@@ -187,17 +202,17 @@ const Main = () => {
           btnText="Get your Long-term Support"
         />
       </div>
-      <div className="md:mx-96">
-        <Package
+
+      <div className="md:w-1/3 mx-auto">
+        <SpecialPackage
           title="Business Contract 🤝"
           description={[
             "We'll be working together on your Product over time and keep building and improving your Customers Experience",
             "You'll benefit from an Ongoing Support and Solutions",
             "This is what you really need for the Greatest Achievement",
           ]}
-          lowestPrice="$2350 per month"
-          btnText="Get your Long-term Support"
-          className=""
+          lowestPrice="$2350"
+          btnText="Get your Long-term Support!"
         />
       </div>
 
