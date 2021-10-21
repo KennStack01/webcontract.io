@@ -153,6 +153,9 @@ const Main = () => {
             "Responsive Business Website",
             "Progressive Web App",
             "A Progressive Web App acts like a website and is powered by your browser, so it can be responsive and adapt to work on any device.",
+            "Search Engine Optimization (SEO)",
+            "Website Analytics Tools",
+            "Customers Management Database with Airtable",
             "Dynamic Content with a Headless CMS",
           ]}
           lowestPrice="$5000"
@@ -180,6 +183,8 @@ const Main = () => {
             "Three Features",
             "From Four Web Pages",
             "Dynamic Content",
+            "Search Engine Optimization (SEO)",
+            "Website Analytics",
             "Headless Content Management System",
             "Free and Secure Hosting",
           ]}
@@ -194,6 +199,8 @@ const Main = () => {
             "Dynamically Generated Web Pages",
             "Dynamic Content",
             "Headless Content Management System",
+            "SEO Configuration",
+            "Website Analytics Tools",
             "Full Access and Ownership",
             "Free and Secure Hosting",
           ]}
