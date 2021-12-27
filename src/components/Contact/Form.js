@@ -94,7 +94,7 @@ const Form = () => {
               ></textarea>
             </div>
             <div
-              className="g-recaptcha my-3 md:my-5"
+              className="g-recaptcha my-3 md:my-5 mx-auto"
               data-sitekey="6LdswdAdAAAAADUsguDB7MYQkYpmlmlB3wYNsKUk"
             ></div>
 
