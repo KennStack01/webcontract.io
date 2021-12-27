@@ -93,13 +93,17 @@ const Form = () => {
                 required
               ></textarea>
             </div>
+            <div
+              className="g-recaptcha my-3 md:my-5"
+              data-sitekey="6LdswdAdAAAAADUsguDB7MYQkYpmlmlB3wYNsKUk"
+            ></div>
 
             <div className="mt-10 mx-auto">
               <button
                 type="submit"
                 className="bg-gun-powder-600 text-white font-bold py-4 md:py-2 px-6 text-xl hover:text-turbo-400"
               >
-                Let's Go🚀
+                Send🚀
               </button>
             </div>
           </form>
