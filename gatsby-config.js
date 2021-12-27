@@ -49,6 +49,7 @@ module.exports = {
         domain: `webcontract.io`,
       },
     },
+    `gatsby-plugin-recaptcha`,
     {
       resolve: `gatsby-source-datocms`,
       options: {
